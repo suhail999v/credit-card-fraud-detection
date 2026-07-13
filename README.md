@@ -34,5 +34,16 @@ Accuracy alone was misleading — a model predicting "not fraud" for everything 
 still score 99.8% accuracy while catching zero fraud. Precision, recall, and F1-score
 were the metrics that actually mattered for this imbalanced classification problem.
 
+## Visualizations
+
+**Class Imbalance**
+![Class Distribution](Screenshot%202026-07-13%20123316.png)
+
+**Transaction Amount Distribution**
+![Amount Distribution](Screenshot%202026-07-13%20123337.png)
+
+**Model Comparison (MLflow)**
+![MLflow Comparison](Screenshot%202026-07-13%20133051.png)
+
 ## Tools Used
 Python, Pandas, Seaborn, Scikit-learn, MLflow
